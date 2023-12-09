@@ -1,0 +1,144 @@
+.contacts__container{
+    padding: 100px 180px 100px;
+    background-color: #393e46;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.contacts__header{
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.contacts__header>.contacts-title>p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: rgb(120, 34, 201);
+}
+
+.contacts__header>.contacts-subheading>p{
+    color: black;
+    font-family: 'Poppins';
+    font-size: 28px;
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+.contacts__container form{
+    background-color: white;
+    /* background-color: #2a2438; */
+    width: 600px;
+    /* height: 400px; */
+    padding: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 4px;
+}
+
+.inputGroup__one{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.name-input{
+    padding: 15px;
+    width: 250px;
+    outline: 0;
+    border: 1px solid lightgrey;
+}
+
+.email-input{
+    margin-left: 30px;
+    padding: 15px;
+    width: 250px;
+    outline: 0;
+    border: 1px solid lightgrey;
+}
+
+.inputGroup__two{
+    /* border: 1px solid red; */
+    
+}
+
+.subject-input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 20px;
+    outline: 0;
+    border: 1px solid lightgrey;
+}
+
+.messege-input{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+    padding: 15px;
+    outline: 0;
+    border: 1px solid lightgrey;    
+}
+
+
+.contacts__btn{
+    
+    text-align: center;
+}
+
+.contacts__btn button{
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-family: 'Poppins';
+    font-weight: 500;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.contacts__btn button:active{
+    transform: scale(0.94);
+}
+
+
+
+@media screen and (max-width:450px) {
+    .contacts__container{
+        padding: 100px 20px 100px;
+    }
+
+    .contacts__header>.contacts-title>p{
+        font-size: 14px;
+    }
+
+    .contacts__header>.contacts-subheading>p{
+        font-size: 18px;
+    }
+
+    .contacts__container form{
+        width: 100%;
+    }
+
+    .inputGroup__one{
+        display: block;
+    }
+
+    .name-input{
+        margin-bottom: 20px;
+        width: 100%;    
+    }
+
+    .email-input{
+        margin-left: 0px;
+        width: 100%;
+    }
+}
+

@@ -1,0 +1,363 @@
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+
+.about__container{
+    /* border: 1px solid red; */
+    padding-top: 100px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 100px;
+    /* background-color: rgb(254, 252, 252); */
+}
+
+            /* About Header  */
+
+.about__header{
+    /* border: 1px solid red; */
+    text-align: center;
+    padding: 15px;
+}
+
+
+.about__header>.about-title>p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: rgb(120, 34, 201);
+}
+
+/* .about__header>.line-div{
+    display: flex;
+    justify-content: center;
+}
+    
+.about__header>.line-div>.line {
+    background-color: blueviolet;
+    height: 4px;
+    width: 45px;
+    border-radius: 2px;
+    margin-bottom: 10px;
+} */
+
+.about__header>.sub-heading>p{
+    font-family: 'Poppins';
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.sub-description>p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    font-weight: 500;
+    opacity: 0.6;
+}
+
+
+        /* About ContentBody */
+
+.about__contentbody{
+    /* border: 1px solid red;  */
+    width: 100%;
+    /* height: 400px; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__contentbody>.content__left{
+    /* border: 1px solid yellow; */
+    width: 50%;
+    padding: 10px;
+}
+
+.content__left>.summary-heading h1{
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.content__left>.summary-description p{
+    margin-top: 18px;
+    font-weight: 500;
+    opacity: 0.6;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.content__left .heading-group{
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+}
+
+.content__left .data-group{
+    font-weight: 500;
+    opacity: 0.6;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+
+
+
+.content__right{
+    padding: 10px;
+    width: 40%;
+}
+
+.content__right>.education__heading h1{
+    font-family: 'Poppins', 'sans-serif';
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.education__box{
+    /* border: 1px solid red; */
+    width: 100%;
+    margin-top: 18px;
+    display: flex;
+}
+
+.education__box>.horizontal-line{
+    border: 1px solid lightgrey;
+    width: 0px;
+    height: 110px;
+    margin-top: 8px;
+    margin-left: 25px;
+    margin-right: 40px;
+}
+
+.education__box>.horizontal-line>img{
+    width: 40px;
+    margin-left: -20px;
+    border-radius: 50%;
+}
+
+.education__content>.degree{
+    margin-top: 10px;
+    font-family: 'Poppins','sans-serif';
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.education__content>.collegeName{
+    margin-top: 2px;
+    font-weight: 600;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.education__content>.year{
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-left: 1px;
+    opacity: 0.6;
+}
+
+.education__content>.grade{
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 4px;
+    margin-left: 1px;
+    opacity: 0.6;
+}
+
+.education__content>.grade::first-line{
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.content__right>.resume-btn-div{
+    margin-top: 200px;
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.content__right>.resume-btn-div button{
+    background-color: rgb(38, 38, 38);
+    color: white;
+    padding: 15px 70px 15px 70px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    border: none;
+    cursor: pointer;
+}
+
+.content__right>.resume-btn-div button:hover{
+    background-color: rgb(75, 74, 74);
+}
+
+
+
+@media screen and (max-width:1200px) {
+    .about__container{
+        padding-left: 140px;
+        padding-right: 140px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about__container{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .about__header>.sub-heading>p{
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .about__contentbody{
+        /* border: 1px solid red;     */
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .about__contentbody>.content__left{
+        width: 95%;
+    }
+
+    .content__left>.summary-heading h1{
+        font-size: 16px;
+    }
+
+    .content__left>.summary-description p{
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 30px;
+    }
+
+    .content__right{
+        padding: 10px;
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    .content__right>.education__heading h1{
+        font-size: 16px;
+    }
+
+    .education__box{
+        justify-content: center;
+    }
+
+    .education__box>.horizontal-line{
+        margin-right: 30px;
+    }
+
+    .content__right>.resume-btn-div{
+        margin-top: 60px;
+    }
+}
+
+
+@media screen and (max-width:450px) {
+    .about__container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .about__header>.sub-heading>p{
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .sub-description>p{
+        font-size: 14px;
+        margin-top: 14px;
+    }
+
+    .about__contentbody{
+        /* border: 1px solid red;  */
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
+
+    .about__contentbody>.content__left{
+        width: 95%;
+    }
+
+    .content__left>.summary-heading h1{
+        font-size: 16px;
+    }
+
+    .content__left>.summary-description p{
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 40px;
+    }
+
+    .content__right{
+        padding: 10px;
+        width: 95%;
+        margin-top: 30px;
+    }
+
+    .content__right>.education__heading h1{
+        font-size: 16px;
+    }
+
+    .education__box{
+        justify-content: center;
+    }
+
+    .education__box>.horizontal-line{
+        display: none;
+        margin-right: 30px;
+    }
+
+    .content__right>.resume-btn-div{
+        margin-top: 60px;
+    }
+
+    .content__left .heading-group{
+        font-size: 13px;
+        letter-spacing: 1px;
+        margin-bottom: 2px;
+    }
+
+    .content__left .data-group {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+
+    .data-grp-media {
+        margin-left: auto;
+        margin-right: auto;
+        width: 290px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    .phone__data{
+        position: relative;
+        left: -7px;
+    }
+
+    .education__content>.degree{
+        margin-top: 10px;
+        font-family: 'Poppins','sans-serif';
+        font-weight: 600;
+        font-size: 17px;
+    }
+    
+    .education__content>.collegeName{
+        margin-top: 2px;
+        font-weight: 600;
+        font-size: 12px;
+        opacity: 0.6;
+    }
+
+}

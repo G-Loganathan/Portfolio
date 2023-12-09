@@ -1,0 +1,134 @@
+.services__container{
+    padding: 100px 180px 100px;
+    z-index: -10;
+    /* height: 100vh; */
+    background-color: black;
+    /* border: 1px solid red; */
+}
+
+
+.services__header{
+    text-align: center;
+    padding: 15px;
+    /* border: 1px solid red; */
+}
+
+.services__header>.services-title>p{
+    font-family: 'Poppins';
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: rgb(120, 34, 201);
+}
+
+.services__header>.services-sub-heading>p{
+    color: white;
+    font-family: 'Poppins';
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.services__header>.services-sub-description{
+    width: 78%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.services__header>.services-sub-description>p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    opacity: 0.6;
+    line-height: 1.5;
+    color: white;
+}
+
+
+.services__contentbody{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.services__contentbody>.box{
+    background-color: #2a2438;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    transition: .2s ease-in-out 0s;
+}
+
+.services__contentbody>.box:hover{
+    transform: scale(1.05);
+}
+
+.services__icon{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid red; */
+    margin-top: 40px;
+}
+
+.services__heading{
+    text-align: center;
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    font-family: monospace;
+    /* border: 1px solid red; */
+    cursor: default;
+}
+
+.services__description{
+    /* border: 1px solid blue; */
+    color: white;
+    padding: 25px 0px 25px 0px;
+    width: 240px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    line-height: 1.8;
+    font-size: 14px;
+    color: #a2a8d3;
+    cursor: default;
+}
+
+.uiIcon{
+    width: 65px;
+}
+
+.WebIcon{
+    width: 70px;
+}
+
+.responsive-icon{
+    width: 68px;
+}
+
+
+@media screen and (max-width: 450px) {
+    .services__container{
+        padding: 100px 20px 100px;
+    }
+
+    .services__header>.services-title>p{
+        font-size: 14px;
+       
+    }
+    
+    .services__header>.services-sub-heading>p{
+        font-size: 18px;
+    }
+
+    .services__header>.services-sub-description{
+        width: 90%;
+    }
+
+    .services__contentbody{
+        justify-content: center;
+    }
+}

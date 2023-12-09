@@ -1,0 +1,160 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Header styles */
+
+header{
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 5;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 50px; */
+  /* background-color: #00828c; */
+  background: transparent;
+  color: white;
+  position: relative;
+  padding: 20px 0px 20px;
+  /* padding-top: 10px; */
+  transition: 0.2s ease-in;
+  box-shadow: 0px 5px 19px -13px rgba(0,0,0,0.15);
+}
+
+.navbar-bg-scroll{
+  background-color: white;
+}
+
+
+
+.logo-color{
+  color: black;
+}
+
+/* Common navigation link styles */
+.nav-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  opacity: 0.9;
+  font-size: 14px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.nav-item-scroll{
+  color: black;
+}
+
+.contactBlack{
+  border: 1.4px solid white;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+}
+
+.contactWhite{
+  background-color: black;
+  padding-top: 6px;
+  padding-bottom: 7px;
+  border-radius: 3px;
+  color: white;
+}
+
+/* Desktop navigation links */
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  width: 75%;
+
+}
+
+/* Mobile menu icon */
+.mobile-menu-icon {
+  display: none;
+}
+
+.icon-scroll{
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media query for mobile layout */
+@media screen and (max-width: 780px) {
+  .logo {
+      position: absolute;
+      top: 50%;
+      left: 15%;
+      transform: translate(-50%, -50%);
+  }
+
+  .navbar{
+    padding: 35px 0px 30px;
+  }
+
+  .nav-links {
+      display: none;
+  }
+
+  /* Adjusted styles for mobile navigation */
+  .nav-links-mobile {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: black;
+      opacity: 0.84;
+      list-style: none;
+      text-align: center;
+      padding: 10px 0;
+      transition: all 1.5s ease-out;
+  }
+  /* Adjusted styles for mobile navigation links */
+  .nav-item {
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      display: block;
+  }
+
+  /* Mobile menu icon styles */
+  .mobile-menu-icon {
+      display: block;
+      position: absolute;
+      font-size: 27px;
+      color: white;
+      background: transparent;
+      border: none;
+      outline: none;
+      top: 50%;
+      right: 20px;
+      transform: translateY(-50%);
+  }
+}
