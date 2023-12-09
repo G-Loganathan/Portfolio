@@ -50,7 +50,7 @@ const Projects = () => {
                 <div className="footer-card">
                   <div className="footer-1">
                     <p className="stack">React</p>
-                    <i className="icon fa-brands fa-github"></i>
+                    <a href="https://github.com/G-Loganathan/Portfolio" target='blank'><i className="icon fa-brands fa-github"></i></a>
                   </div>
                   <div className="footer-2">
                     <p className="project-title">Personal Porfolio</p>
