@@ -176,7 +176,7 @@
 
 @media screen and (max-width: 450px) {
     .home__container{
-        height: 80vh;
+        height: 95vh;
         background-position: center 100px;
     }
 
