@@ -9,7 +9,6 @@
 .projects__header{
     text-align: center;
     padding: 15px;
-    /* border: 1px solid red; */
 }
 
 .projects__header>.projects-title>p{
@@ -66,18 +65,14 @@
             /* Filter Buttons Ends */
 
 .projects__contentbody{
-    /* border: 1px solid red; */
-    /* height: 550px; */
     padding-top: 30px;
     padding-bottom: 30px;
-    /* padding-left: 30px; */
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
 .projects__contentbody>.card{
-    /* height: 330px; */
     width: 360px;
     background-color: #3e4a61;  
     border-top-left-radius: 18px;

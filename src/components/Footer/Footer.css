@@ -6,13 +6,10 @@
 
 .footer__container{
     background-color: rgb(18, 18, 18);
-    /* height: 45vh; */
     padding: 40px 45px 0px 45px;
 }
 
 .footer__contentbody{
-    /* border: 1px solid red; */
-    /* height: 120px; */
     margin-bottom: 10px;
     display: flex;
     justify-content: space-between;
@@ -20,16 +17,13 @@
 }
 
 .footer__contentbody>.left__content{
-    /* border: 1px solid yellow; */
     width: 40%;
     padding: 20px;
 }
 
 .footer__contentbody>.right__content{
-    /* border: 1px solid blue; */
     width: 12%;
     padding: 20px;
-    
 }
 
 .left__content>.myname>p{
@@ -64,7 +58,6 @@
 
 .icons-grp{
     display: flex; 
-    /* border-top: 2px solid blueviolet; */
     width: 100%;
     padding-top: 20px;
     padding-left: 1px;

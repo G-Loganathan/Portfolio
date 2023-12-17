@@ -4,7 +4,6 @@
 
 
 .skills__container{
-    /* height: 600px; */
     background-color: black;
     background-image: url(../../assets/grapic-2.svg),url(../../assets/grapic-2.svg);
     background-repeat: no-repeat;
@@ -12,14 +11,12 @@
     background-size: 500px;
     padding: 100px 180px 100px;
     z-index: -10;
-    /* border: 1px solid red; */
 }
 
 
 .skills__header{
     text-align: center;
     padding: 15px;
-    /* border: 1px solid red; */
 }
 
 .skills__header>.skills-title>p{
@@ -56,8 +53,6 @@
 
 
 .skills__contentbody{
-    /* border: 1px solid red; */
-    /* height: 300px; */
     display: flex;
     justify-content: center;
     margin-top: 30px;
@@ -68,7 +63,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* border: 1px solid blue; */
 }
 
 .skills-icon-group{
@@ -119,7 +113,7 @@
 }
 
 .bootstrap{
-    width: 68px;
+    width: 68px;    
     margin-bottom: 5px;
     margin-left: -5px;
 }

@@ -1,16 +1,13 @@
 .services__container{
     padding: 100px 180px 100px;
     z-index: -10;
-    /* height: 100vh; */
     background-color: black;
-    /* border: 1px solid red; */
 }
 
 
 .services__header{
     text-align: center;
     padding: 15px;
-    /* border: 1px solid red; */
 }
 
 .services__header>.services-title>p{
@@ -46,7 +43,7 @@
 
 
 .services__contentbody{
-    /* border: 1px solid blue; */
+
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -68,7 +65,6 @@
 .services__icon{
     display: flex;
     justify-content: center;
-    /* border: 1px solid red; */
     margin-top: 40px;
 }
 
@@ -79,12 +75,10 @@
     color: white;
     margin-top: 20px;
     font-family: monospace;
-    /* border: 1px solid red; */
     cursor: default;
 }
 
 .services__description{
-    /* border: 1px solid blue; */
     color: white;
     padding: 25px 0px 25px 0px;
     width: 240px;

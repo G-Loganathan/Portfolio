@@ -4,15 +4,16 @@ import { Element } from "react-scroll"
 
 const Home = () => {
 
-
   return (
     <Element name="home" className="home__scrollElement">
+      
       <div className='home__container'>
 
         <div className='home__content'>
 
           <div className="welcome-text-div">
             <p className='welcome-text'>Hello, World.</p>
+    
           </div>
           <div className="my-name-div">
               <p className="my-name">I'M LOGANATHAN</p>
@@ -32,9 +33,7 @@ const Home = () => {
             <i className="fa-solid fa-angle-down"></i>
           </div>
           
-
         </div>
-
                       
       </div>
     </Element>

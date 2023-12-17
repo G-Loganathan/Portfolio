@@ -14,10 +14,6 @@ const About = () => {
             <p>ABOUT</p>
           </div>
 
-          {/* <div className="line-div">
-            <hr className="line" />
-          </div> */}
-
           <div className="sub-heading">
             <p>Let me introduce myself.</p>
           </div>

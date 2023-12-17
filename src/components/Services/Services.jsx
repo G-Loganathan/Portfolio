@@ -70,11 +70,7 @@ const Services = () => {
                 </div>
                     {/* Box 3 ends */}
 
-
-
-
            </div>
-
 
         </div>
 

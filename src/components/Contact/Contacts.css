@@ -1,7 +1,6 @@
 .contacts__container{
     padding: 100px 180px 100px;
     background-color: #393e46;
-    /* border: 1px solid red; */
     display: flex;
     justify-content: center;
 }
@@ -31,9 +30,7 @@
 
 .contacts__container form{
     background-color: white;
-    /* background-color: #2a2438; */
     width: 600px;
-    /* height: 400px; */
     padding: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -41,7 +38,6 @@
 }
 
 .inputGroup__one{
-    /* border: 1px solid blue; */
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
@@ -62,10 +58,7 @@
     border: 1px solid lightgrey;
 }
 
-.inputGroup__two{
-    /* border: 1px solid red; */
-    
-}
+
 
 .subject-input{
     width: 100%;
