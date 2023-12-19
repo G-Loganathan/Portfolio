@@ -1,35 +1,16 @@
-import React, { useState } from "react";
+import React from "react";
 import "../Contact/Contacts.css";
 import { Element } from "react-scroll";
 import Footer from "../Footer/Footer";
 import Swal from "sweetalert2";
-import axios from "axios";
 
 const Contacts = () => {
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [subject, setSubject] = useState("");
-  const [message, setMessege] = useState("");
-
   const sendMail = () => {
-    if (name && email && subject && message) {
-      axios
-        .post("http://localhost:5000/send_email", {
-          name,
-          email,
-          subject,
-          message,
-        })
-        .then(() =>
-          Swal.fire({
-            title: "Sended!",
-            text: "Thank you for your Interest, I'll get back to you soon!",
-            icon: "success",
-          })
-        )
-      return;
-    }
-    return alert("Fill in all the fields to continue");
+    Swal.fire({
+      title: "Sended!",
+      text: "Thank you for your Interest, I'll get back to you soon!",
+      icon: "success",
+    });
   };
 
   return (
@@ -52,7 +33,6 @@ const Contacts = () => {
               name=""
               id=""
               placeholder="Enter your Name"
-              onChange={(e) => setName(e.target.value)}
             />
             <input
               className="email-input"
@@ -60,7 +40,6 @@ const Contacts = () => {
               name=""
               id=""
               placeholder="Enter your Email"
-              onChange={(e) => setEmail(e.target.value)}
             />
           </div>
 
@@ -71,7 +50,6 @@ const Contacts = () => {
               name=""
               id=""
               placeholder="Enter Subject"
-              onChange={(e) => setSubject(e.target.value)}
             />
             <textarea
               className="messege-input"
@@ -80,7 +58,6 @@ const Contacts = () => {
               cols="30"
               rows="10"
               placeholder="Enter Messege"
-              onChange={(e) => setMessege(e.target.value)}
             ></textarea>
           </div>
 
