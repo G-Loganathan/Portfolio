@@ -35,7 +35,9 @@ header{
   background-color: white;
 }
 
-
+.logo{
+  color: red;
+}
 
 .logo-color{
   color: black;
