@@ -3,6 +3,7 @@ import { Element } from "react-scroll";
 import "./About.css"
 import EduIcon from "../../assets/graduate-cap-icon.jpg"
 
+
 const About = () => {
   return (
     <Element name="about" className="about__scrollContainer">
@@ -73,7 +74,7 @@ const About = () => {
             </div>
 
             <div className="resume-btn-div">
-              <button>DOWNLOAD CV</button>
+              <a href="/LoganathanG-Resume.pdf" target="_blank">DOWNLOAD CV</a>
             </div>
             
           </div>
