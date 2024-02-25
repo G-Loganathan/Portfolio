@@ -30,7 +30,7 @@ const About = () => {
               <h1>PROFILE</h1>
             </div>
             <div className='summary-description'>
-              <p>As a Frontend Developer, I dedicated to crafting seamless user experiences through captivating design. Committed to staying abreast of industry trends and delivering innovative solutions. Eager to contribute creative expertise to dynamic web development projects.</p>
+              <p>As a Full Stack Developer, I dedicated to crafting seamless user experiences through captivating design and End-to-End Development. Committed to staying abreast of industry trends and delivering innovative solutions. Eager to contribute creative expertise to dynamic web development projects.</p>
             </div>
             
             <div className="data-grp-media">

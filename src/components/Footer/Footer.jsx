@@ -16,7 +16,7 @@ const Footer = () => {
                     <p>LOGANATHAN G</p>
                   </div>
                   <div className="subline">
-                    <p>Frontend Developer</p>
+                    <p>Full Stack Developer</p>
                   </div>
                   
               </div>

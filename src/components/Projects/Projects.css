@@ -139,6 +139,32 @@
     color: rgb(111, 111, 189)
 }
 
+.view-more-btn{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.view-more-btn button{
+    font-size: 15px;
+    background-color: white;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgb(103, 102, 102);
+    opacity: 0.8;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.view-more-btn button:hover{
+    border: 1px solid rgb(149, 149, 149);
+    color: rgb(126, 126, 126);
+}
+
+.view-more-btn button:active{
+    transform: scale(0.98);
+}
+
+
 
 @media screen and (max-width: 450px) {
     .projects__container{

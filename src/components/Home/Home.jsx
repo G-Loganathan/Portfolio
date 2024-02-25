@@ -19,7 +19,7 @@ const Home = () => {
               <p className="my-name">I'M LOGANATHAN</p>
           </div>
           <div className="job-title">
-              <p>FRONTEND DEVELOPER</p>
+              <p>FULL STACK DEVELOPER</p>
           </div>
 
           <div className="icons-group-home">
