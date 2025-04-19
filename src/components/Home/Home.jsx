@@ -26,9 +26,9 @@ const Home = () => {
 {/*             <a href="https://www.linkedin.com/in/loganathan-g" target="blank"><i className="fa-brands fa-linkedin"></i></a>
             <a href="https://github.com/G-Loganathan" target="blank"><i className="fa-brands fa-github"></i></a>
             <a href="https://instagram.com/logannx._?igshid=MTNiYzNiMzkwZA==" target="blank"><i className="fa-brands fa-instagram"></i></a> */}
-            <a href="" target="blank"><i className="fa-brands fa-linkedin"></i></a>
-            <a href="" target="blank"><i className="fa-brands fa-github"></i></a>
-            <a href="" target="blank"><i className="fa-brands fa-instagram"></i></a>
+            <i className="fa-brands fa-linkedin"></i>
+            <i className="fa-brands fa-github"></i>
+            <i className="fa-brands fa-instagram"></i>
           </div>
 
           <div className="scroll__content">
