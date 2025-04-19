@@ -74,7 +74,7 @@ const About = () => {
             </div>
 
             <div className="resume-btn-div">
-              <a href="/LoganathanG-Resume.pdf" target="_blank">DOWNLOAD CV</a>
+              <p>DOWNLOAD CV</p>
             </div>
             
           </div>
